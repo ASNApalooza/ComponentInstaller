@@ -4,7 +4,7 @@
          location="https://github.com/ASNApalooza/ASNA.Helpers.ASPNET/raw/master/ASNA.Helpers.ASPNET"
          postInstallUrl="http://asna.com" >     
     <dependencies>
-        <dependency project="asna-data-services.apkg"/>
+        <dependency project="asna-helpers-dataservices.apkg"/>
     </dependencies>
     <files>
         <file fileName="/JsonAutoComplete.ashx" sourceFolder="/ASHX%20files" targetFolder="\services"></file>
