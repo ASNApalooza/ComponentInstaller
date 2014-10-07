@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package name="asna-data-services" location="https://github.com/ASNApalooza/ASNA.Helpers.DataServices/raw/master/ASNA.Helpers.DataServices">     
+    <dependencies>
+    </dependencies>
+    <files>
+        <file fileName="/ASNA.Helpers.DataServices.dll" sourceFolder="/bin/Debug" targetFolder="\bin"></file>
+        <file fileName="/ClosedXML.dll" sourceFolder="/bin/Debug" targetFolder="\bin"></file>
+        <file fileName="/ClosedXML.xml" sourceFolder="/bin/Debug" targetFolder="\bin"></file>
+        <file fileName="/DocumentFormat.OpenXml.dll" sourceFolder="/bin/Debug" targetFolder="\bin"></file>
+        <file fileName="/Newtonsoft.Json.dll" sourceFolder="/bin/Debug" targetFolder="\bin"></file>
+        <file fileName="/Newtonsoft.Json.xml" sourceFolder="/bin/Debug" targetFolder="\bin"></file>
+    </files>    
+</package>

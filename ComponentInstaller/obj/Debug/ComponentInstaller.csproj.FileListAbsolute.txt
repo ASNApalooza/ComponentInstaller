@@ -1,0 +1,11 @@
+C:\rpDocuments\Programming\CS\Other\ComponentInstaller\ComponentInstaller\bin\Debug\ComponentInstaller.exe.config
+C:\rpDocuments\Programming\CS\Other\ComponentInstaller\ComponentInstaller\obj\Debug\ComponentInstaller.csprojResolveAssemblyReference.cache
+C:\rpDocuments\Programming\CS\Other\ComponentInstaller\ComponentInstaller\bin\Debug\ComponentInstaller.exe
+C:\rpDocuments\Programming\CS\Other\ComponentInstaller\ComponentInstaller\bin\Debug\ComponentInstaller.pdb
+C:\rpDocuments\Programming\CS\Other\ComponentInstaller\ComponentInstaller\bin\Debug\log4net.dll
+C:\rpDocuments\Programming\CS\Other\ComponentInstaller\ComponentInstaller\bin\Debug\log4net.xml
+C:\rpDocuments\Programming\CS\Other\ComponentInstaller\ComponentInstaller\obj\Debug\ComponentInstaller.exe
+C:\rpDocuments\Programming\CS\Other\ComponentInstaller\ComponentInstaller\obj\Debug\ComponentInstaller.pdb
+C:\Utils\ComponentInstaller.exe.config
+C:\Utils\ComponentInstaller.exe
+C:\Utils\ComponentInstaller.pdb
