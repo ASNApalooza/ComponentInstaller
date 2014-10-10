@@ -7,7 +7,7 @@
         <dependency project="asna-helpers-dataservices.apkg"/>
     </dependencies>
     <files>
-        <file fileName="/JsonService.ashx" sourceFolder="/ASHX-files" targetFolder="\services"></file>
+        <file fileName="/JsonService.ashx" sourceFolder="/ASHX%20files" targetFolder="\services"></file>
         <file fileName="/concentric-spinner.gif" sourceFolder="/public/images" targetFolder="\public\images"></file>
         <file fileName="/icon-alert.png" sourceFolder="/public/images" targetFolder="\public\images"></file>
         <file fileName="/ASNAHelper.QueryInputArgs.js" sourceFolder="/public/js" targetFolder="\public\js"></file>
