@@ -16,8 +16,8 @@
         <file fileName="/ASNA.Helpers.ASPNET.pdb" sourceFolder="/bin/Debug" targetFolder="\bin"></file>
         <file fileName="/ClosedXML.dll" sourceFolder="/bin/Debug" targetFolder="\bin"></file>
         <file fileName="/ClosedXML.xml" sourceFolder="/bin/Debug" targetFolder="\bin"></file>
-        <file fileName="/Log4Net.dll" sourceFolder="/bin/Debug" targetFolder="\bin"></file>
-        <file fileName="/Log4Net.xml" sourceFolder="/bin/Debug" targetFolder="\bin"></file>
+        <file fileName="/log4net.dll" sourceFolder="/bin/Debug" targetFolder="\bin"></file>
+        <file fileName="/log4net.xml" sourceFolder="/bin/Debug" targetFolder="\bin"></file>
         <file fileName="/Newtonsoft.Json.dll" sourceFolder="/bin/Debug" targetFolder="\bin"></file>
         <file fileName="/Newtonsoft.Json.xml" sourceFolder="/bin/Debug" targetFolder="\bin"></file>
     </files>    
