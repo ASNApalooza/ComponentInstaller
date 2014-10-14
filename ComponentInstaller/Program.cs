@@ -19,6 +19,8 @@ namespace Tester
     {
         static void Main(string[] args)
         {
+            bool isWindows = false; 
+
             if (args.Length == 0) throw new System.ArgumentException("Must provide config id or file with first argument.");
 
             if (Regex.Match(args[0],"[-][-]list-packages").Success) {
@@ -35,19 +37,26 @@ namespace Tester
                 configFile = configFile + ".apkg";
             }
 
-            // This is for debugging purposes
-            if (args.Length == 2) {
-                rootTargetLocation = args[1];
+            //// This is for debugging purposes
+            //if (args.Length == 2 || args.Length == 3) {
+            //    rootTargetLocation = args[1];
+            //}
+
+            foreach (string arg in args) {
+                if (arg == "/windows" ) {
+                    isWindows = true;
+                }
             }
 
             rpPackager rp = new rpPackager();
 
-            rp.ReadConfig(configFile, rootTargetLocation);
+            rp.ReadConfig(configFile, rootTargetLocation, isWindows);
         }
     }
 
     class rpPackager
     {
+        bool isWindows = false;
         StringBuilder manifestFile = new StringBuilder();
         ILog log;
 
@@ -91,7 +100,8 @@ namespace Tester
             }
         }
 
-        public void ReadConfig(string configFile, string rootTargetLocation) {
+        public void ReadConfig(string configFile, string rootTargetLocation, bool isWindows) {
+            this.isWindows = isWindows;
             log4net.Config.BasicConfigurator.Configure();
             log = log4net.LogManager.GetLogger(typeof(rpPackager));
             log4net.GlobalContext.Properties["LogFileName"] = rootTargetLocation + @"\projectinstaller.log";
@@ -102,6 +112,8 @@ namespace Tester
             List<PackageInfo> Packages = null;
 
             manifestFile.AppendFormat("ProjectInstaller manifest. Date: {0} Time{1}\r\n", DateTime.Now.ToString("dd-MMM-yyyy"), DateTime.Now.ToString("hh:mm.ss"));            
+            manifestFile.AppendLine(@"Installed with /windows option which appends \debug to \bin target folders for Windows programs.");
+
             GetConfigFiles(configFile, rootTargetLocation); 
 
             while (packageFiles.Count > 0 ) {
@@ -210,6 +222,12 @@ namespace Tester
                 p.FileName = n.Attributes["fileName"].Value;
                 p.SourceFolder = n.Attributes["sourceFolder"].Value;
                 p.TargetFolder = n.Attributes["targetFolder"].Value;
+
+                if (this.isWindows)
+                {
+                    p.TargetFolder = p.TargetFolder + @"\debug";
+                }
+
                 Packages.Add(p);
             }
 
