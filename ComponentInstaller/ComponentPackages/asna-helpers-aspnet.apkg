@@ -15,6 +15,7 @@
         <file fileName="/ASNAHelpers.QueryInputArgs.js" sourceFolder="/public/js" targetFolder="\public\js"></file>
         <file fileName="/jQueryAutoComplete.aspx.js" sourceFolder="/public/js" targetFolder="\public\js"></file>
         <file fileName="/jquery.min.js" sourceFolder="/public/vendor/jquery/dist" targetFolder="\public\vendor\jquery\dist"></file>
+        <file fileName="/jquery.min.map" sourceFolder="/public/vendor/jquery/dist" targetFolder="\public\vendor\jquery\dist"></file>
         <file fileName="/jquery-ui.min.js" sourceFolder="/public/vendor/jquery-ui" targetFolder="\public\vendor\jquery-ui"></file>
         <file fileName="/jquery-ui.min.css" sourceFolder="/public/vendor/jquery-ui/themes/smoothness" targetFolder="\public\vendor\jquery-ui\themes\smoothness"></file>
         <file fileName="/underscore.js" sourceFolder="/public/vendor/underscore" targetFolder="\public\vendor\underscore"></file>
