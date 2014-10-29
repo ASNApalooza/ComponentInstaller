@@ -2,7 +2,7 @@
 
 <package name="asna-helpers-aspnet"                        
          location="https://github.com/ASNApalooza/ASNA.Helpers.ASPNET/raw/master/ASNA.Helpers.ASPNET"
-         postInstallUrl="http://asna.com" >     
+         postInstallUrl="https://github.com/ASNApalooza/ASNA.Helpers.ASPNET" >     
     <dependencies>
         <dependency project="asna-helpers-dataservices.apkg"/>
     </dependencies>
