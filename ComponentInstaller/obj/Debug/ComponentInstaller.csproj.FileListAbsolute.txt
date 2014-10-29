@@ -9,3 +9,6 @@ C:\Utils\ComponentInstaller.exe.config
 C:\Utils\ComponentInstaller.exe
 C:\Utils\ComponentInstaller.pdb
 C:\rpDocuments\Programming\CS\Other\ComponentInstaller\ComponentInstaller\obj\Debug\ComponentInstaller.csprojResolveAssemblyReference.cache
+C:\rpDocuments\Programming\Walter\ComponentInstaller\ComponentInstaller\obj\Debug\ComponentInstaller.exe
+C:\rpDocuments\Programming\Walter\ComponentInstaller\ComponentInstaller\obj\Debug\ComponentInstaller.pdb
+C:\rpDocuments\Programming\Walter\ComponentInstaller\ComponentInstaller\obj\Debug\ComponentInstaller.csprojResolveAssemblyReference.cache
