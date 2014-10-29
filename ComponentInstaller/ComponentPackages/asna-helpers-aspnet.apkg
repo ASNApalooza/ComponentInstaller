@@ -8,14 +8,18 @@
     </dependencies>
     <files>
         <file fileName="/JsonService.ashx" sourceFolder="/ASHX%20files" targetFolder="\services"></file>
+
         <file fileName="/concentric-spinner.gif" sourceFolder="/public/images" targetFolder="\public\images"></file>
         <file fileName="/icon-alert.png" sourceFolder="/public/images" targetFolder="\public\images"></file>
+
         <file fileName="/ASNAHelpers.QueryInputArgs.js" sourceFolder="/public/js" targetFolder="\public\js"></file>
         <file fileName="/jQueryAutoComplete.aspx.js" sourceFolder="/public/js" targetFolder="\public\js"></file>
+
         <file fileName="/ASNA.Helpers.ASPNET.dll" sourceFolder="/bin/Debug" targetFolder="\bin"></file>
         <file fileName="/ASNA.Helpers.ASPNET.pdb" sourceFolder="/bin/Debug" targetFolder="\bin"></file>
         <file fileName="/ClosedXML.dll" sourceFolder="/bin/Debug" targetFolder="\bin"></file>
         <file fileName="/ClosedXML.xml" sourceFolder="/bin/Debug" targetFolder="\bin"></file>
+        <file fileName="/DocumentFormat.OpenXml.dll" sourceFolder="/bin/Debug" targetFolder="\bin"></file>
         <file fileName="/log4net.dll" sourceFolder="/bin/Debug" targetFolder="\bin"></file>
         <file fileName="/log4net.xml" sourceFolder="/bin/Debug" targetFolder="\bin"></file>
         <file fileName="/Newtonsoft.Json.dll" sourceFolder="/bin/Debug" targetFolder="\bin"></file>
